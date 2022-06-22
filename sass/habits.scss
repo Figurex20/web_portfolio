@@ -1,0 +1,35 @@
+.habits {
+	background: $color-principal;
+	ul {
+		display: flex;
+		justify-content: center;
+
+		li {
+			background: $color-carta;
+			list-style: none;
+			width: 10rem;
+			height: 8rem;
+			margin: 2rem;
+			padding-top: 3rem;
+			padding-right: 3rem;
+			border-radius: 25%;
+			-webkit-border-radius: 25%;
+			-moz-border-radius: 25%;
+			-ms-border-radius: 25%;
+			-o-border-radius: 25%;
+			text-align: center;
+			span {
+				width: 3rem;
+				height: 3rem;
+				h3 {
+					text-align: left;
+					margin-left: 1rem;
+				}
+				img {
+					padding-left: 1rem;
+					padding-right: 4.5rem;
+				}
+			}
+		}
+	}
+}

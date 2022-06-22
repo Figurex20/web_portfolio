@@ -4,78 +4,87 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css">
 		<title>Kenneth Gómez</title>
 	</head>
-	<body>
-		<header>
-			<nav>
-				<img src="./utils/Logo.svg" alt="" />
-				<ul>
-					<li><a href="index.html">Sobre mi</a></li>
-					<li><a href="about.html">Skills</a></li>
-					<li><a href="contact.html">Hobbies</a></li>
-					<li><a href="contact.html">Formación</a></li>
-					<li><a href="contact.html">Proyectos</a></li>
-					<li><a href="contact.html">kennethggm12@gmail.com</a></li>
-				</ul>
+	<body >
+		<canvas id="c"></canvas>
+		<div class="information">
+			<header>
+				<nav class="navbar">
+				<div class="navbar-container">
+					<span><img src="./utils/extella.svg" alt="" /><h3>Kenneth Gomez</h3></span>
+					
+					<div class="navbar-UL">
+						<a href="#Me">Sobre mi</a>
+						<a href="#Skils">Skills</a>
+						<a href="#Hobbies">Hobbies</a>
+						<a href="#Formacion">Formación</a>
+						<a href="#laboral">Proyectos</a>
+						<b><a href="kennethggm12@gmail.com">kennethggm12@gmail.com</a></b>
+					</div>
+				</div>
 			</nav>
-			<section>
-				<h1>Kenneth Gómez</h1>
-				<h2>Desarrollador Web</h2>
-				<ul>
-					<li>
-						<a href="">Github<span></span></a>
-					</li>
-					<li>
-						<a href="">Linkedin<span></span></a>
-					</li>
-					<li>
-						<a href="">Instagram<span></span></a>
-					</li>
-					<li>
-						<a href="">Currículo<span></span></a>
-					</li>
-				</ul>
+			
+			<section class="me" >
+				<div class="me-Title">
+					<h1>Keneth Gómez</h1>
+					<p>
+						<b>
+							
+							<span>Web Developer</span>
+							<span>Front-End Developer</span>
+						</b>
+					</p>
+					<a href="">Github<span></span></a>
+					<a href="">Linkedin<span></span></a>
+					<a href="">Instagram<span></span></a>
+					<a href="">Currículo<span></span></a>
+				</div>
+				<div class="me-img">
+					<img src="./utils/me.png" alt="">
+				</div>
 			</section>
 		</header>
+		
 		<main>
-			<section class="">
-				<h1>Sobre mi</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-					quidem.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-					quidem.
-				</p>
+			<section class="aboutMe" id="Me">
+				<div>
+					<h1>Sobre mi</h1>
+					<p>
+						Me encanta resolver problemas para mejorar
+						procesos y desarrollar ideas a través de
+						software, razón por la cual comencé a aprender
+						programación. entiendo como
+						importante una buena UI/UX es, por lo tanto yo
+						Aprendí HTML, CSS, JS y REACT.
+					</p>
+				</div>
 			</section>
-			<section class="">
-				<h1>Skills</h1>
+			
+			<section class="habits" >
+				<h1 id="Skils">Skills</h1>
 				<ul>
-					<li><a href="">html</a></li>
-					<li><a href="">JavaScript</a></li>
-					<li><a href="">NodeJS</a></li>
-					<li><a href="">React</a></li>
-					<li><a href="">Express</a></li>
-					<li><a href="">Regex</a></li>
+					<li><span ><img src="./utils/html5.svg"><h3>HTML</h3></span></li>
+					<li><span ><img src="./utils/js.svg"><h3>JavaScript</h3></span></li>
+					<li><span ><img src="./utils/nodejs.svg"><h3>NodeJS</h3></span></li>
+					<li><span ><img src="https://img.icons8.com/officexs/30/000000/regex.png"/><h3>React</h3></span></li>
 				</ul>
-				<h1>Hobbies</h1>
+				<h1 id="Hobbies">Hobbies</h1>
 				<ul>
-					<li><a href="">Juegos</a></li>
-					<li><a href="">Manejas</a></li>
-					<li><a href="">Oir musica</a></li>
+					<li><span ><img src="https://img.icons8.com/ios-filled/30/000000/controller.png"/><h3>VideoGames</h3></span></li>
+					<li><span><img src="https://img.icons8.com/office/30/000000/source-code.png"/><h3>Develoment</h3></span</li>
+					<li><span><img src="https://img.icons8.com/material/30/000000/sleeping-in-bed.png"/><h3>Sleeping</h3></span></li>
 				</ul>
 			</section>
-			<section class="">
+			<section class="academi" id="Formacion">
 				<h1>Formación Academica</h1>
 				<ul>
-					<li><a href="">Juegos</a></li>
-					<li><a href="">Manejas</a></li>
-					<li><a href="">Oir musica</a></li>
+					<li><div><span><img src="./utils/alura.svg"/></span></div><h3>WEB development</h3><p>2020-Alura</p></li>
+					<li><div><span><img src="./utils/ipec.svg"/></span></div><h3>CCNA</h3><p>IPEC de barva</p></li>
 				</ul>
 			</section>
-			<section class="">
+			<section class="laboral" id="laboral" >
 				<h1>Experiencia laboral</h1>
 				<section>
 					<img src="" alt="" />
@@ -84,30 +93,10 @@
 					<a href="">Oir musica</a>
 					<a href="">Oir musica</a>
 				</section>
-				<section>
-					<img src="" alt="" />
-					<h1>titulo</h1>
-					<h2>subtitulo</h2>
-					<a href="">Oir musica</a>
-					<a href="">Oir musica</a>
-				</section>
-				<section>
-					<img src="" alt="" />
-					<h1>titulo</h1>
-					<h2>subtitulo</h2>
-					<a href="">Oir musica</a>
-					<a href="">Oir musica</a>
-				</section>
-				<section>
-					<img src="" alt="" />
-					<h1>titulo</h1>
-					<h2>subtitulo</h2>
-					<a href="">Oir musica</a>
-					<a href="">Oir musica</a>
-				</section>
+				
 			</section>
 		</main>
-		<footer>
+		<footer class="contact">
 			<img src="./utils/Telefono.svg" alt="" />
 			<h1>Contacto</h1>
 			<p>lorem ipsum dolor sit amet, lorem ipsum dolor sit amet,</p>
@@ -118,9 +107,13 @@
 				<input type="text" placeholder="Mensaje" />
 				<input type="submit" value="Enviar" />
 			</form>
-			<h3>Desarrollado por Kenneth Gómez</h3>
-			<h3>2022</h3>
+			<div>
+				<h3>Desarrollado por Kenneth Gómez</h3>
+				<h3>2022</h3>
+			</div>
 		</footer>
+	</div>
 	</body>
-	<script src="./index.js"></script>
-</html>
+	<script type="module" src="./index.js"></script>
+	</html>
+	

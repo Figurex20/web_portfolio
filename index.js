@@ -1,1 +1,5 @@
-console.log('Hello World');
+import { canvas } from './src/canvas.js';
+
+!(function () {
+	canvas();
+})();

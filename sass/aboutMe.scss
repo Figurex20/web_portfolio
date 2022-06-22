@@ -1,0 +1,15 @@
+.aboutMe {
+	background: $color-secundary;
+	height: 14rem;
+	display: flex;
+	justify-content: center;
+	div {
+		margin: 3rem 20rem 3rem 6rem;
+		width: 50rem;
+		height: 4rem;
+		text-align: left;
+		h1 {
+			margin-bottom: 2rem;
+		}
+	}
+}
