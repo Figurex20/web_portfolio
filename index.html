@@ -36,9 +36,8 @@
 							<span>Front-End Developer</span>
 						</b>
 					</p>
-					<a href="">Github<span></span></a>
-					<a href="">Linkedin<span></span></a>
-					<a href="">Instagram<span></span></a>
+					<a href="https://github.com/Figurex20?tab=repositories">Github<span></span></a>
+					<a href="https://www.linkedin.com/in/kenneth-alonso-g%C3%B3mez-mart%C3%ADnez-8032b5210/">Linkedin<span></span></a>
 					<a href="">Currículo<span></span></a>
 				</div>
 				<div class="me-img">
@@ -50,14 +49,11 @@
 		<main>
 			<section class="aboutMe" id="Me">
 				<div>
-					<h1>Sobre mi</h1>
+					<h1>About me</h1>
 					<p>
-						Me encanta resolver problemas para mejorar
-						procesos y desarrollar ideas a través de
-						software, razón por la cual comencé a aprender
-						programación. entiendo como
-						importante una buena UI/UX es, por lo tanto yo
-						Aprendí HTML, CSS, JS y REACT.
+						I love solving problems to improve processes and develop ideas through software, 
+						which is why I started learning programming. 
+						I understand how important a good UI/UX is, therefore I Learned HTML, CSS, JS and REACT.
 					</p>
 				</div>
 			</section>
@@ -87,33 +83,68 @@
 			<section class="laboral" id="laboral" >
 				<h1>Experiencia laboral</h1>
 				<section>
-					<img src="" alt="" />
-					<h1>titulo</h1>
-					<h2>subtitulo</h2>
-					<a href="">Oir musica</a>
-					<a href="">Oir musica</a>
+					<div class="laboral-img">
+						<img src="./utils/encriptar.png" alt="" />
+					</div>
+					<div class="laboral-content">
+						<h1>Text Encryptor</h1>
+						<h2>Challenge Oracle</h2>
+						<a href="">see demo</a>
+						<a href="">repository</a>
+					</div>
+				</section>
+				<section>
+					
+					<div class="laboral-content">
+						<h1>Hanged Man</h1>
+						<h2>Challenge Oracle</h2>
+						<a href="">see demo</a>
+						<a href="">repository</a>
+					</div>
+					<div class="laboral-img">
+						<img src="./utils/ahorcado.png" alt="" />
+					</div>
 				</section>
 				
 			</section>
 		</main>
-		<footer class="contact">
-			<img src="./utils/Telefono.svg" alt="" />
-			<h1>Contacto</h1>
-			<p>lorem ipsum dolor sit amet, lorem ipsum dolor sit amet,</p>
-			<form action="">
-				<input type="text" placeholder="Nombre" />
-				<input type="text" placeholder="Correo" />
-				<input type="text" placeholder="Asunto" />
-				<input type="text" placeholder="Mensaje" />
-				<input type="submit" value="Enviar" />
+		<footer class="laboral footer">
+			<form id="form" action="" class="laboral-container">
+				<div class="laboral-img-footer">
+					<img src="./utils/Telefono.svg" alt="" />
+				</div>
+				<fieldset class="laboral-content-section">
+					<legend>Contacto</legend>
+					<p>Do you want to contact me?</p>
+					<p>Complete the following form and I will contact you as soon as possible.</p>
+					<!-- <input name='name'type="text" placeholder="Name" /> -->
+					<div class="laboral-content-section-footer" id="focus">
+						<label name='name'>Name</label>
+						<input name='name'type="text" placeholder="Name" />
+					</div>
+					<div class="laboral-content-section-footer">
+						<label name='email'>Email</label>
+						<input name='email' type="correo" placeholder="Email" />
+					</div>
+					<div class="laboral-content-section-footer">
+						<label name='topic'>Topic</label>
+						<input name='topic' type="text" placeholder="Topic" />
+					</div>
+					<div class="laboral-content-section-footer">
+						<label name='message'>Message</label>
+						<textarea   name='message' placeholder="Message" ></textarea>
+					</div>
+					<button type="submit">Send message</button>
+				</fieldset>
 			</form>
-			<div>
+			<a href="mailto:kennethggm12@gmail.com" id="turcazo">mail</a>
+			<div class="end">
 				<h3>Desarrollado por Kenneth Gómez</h3>
 				<h3>2022</h3>
 			</div>
 		</footer>
 	</div>
-	</body>
-	<script type="module" src="./index.js"></script>
-	</html>
+</body>
+<script type="module" src="./index.js"></script>
+</html>
 	
