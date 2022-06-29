@@ -1,0 +1,307 @@
+@media screen and (max-width: 1834px) {
+	* {
+		font-size: 11px;
+	}
+
+	h1 {
+		font-size: 23px;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 11px;
+		margin: 0;
+	}
+	body {
+		overflow: visible;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+	.navbar-UL a {
+		font-size: 2rem;
+	}
+
+	.laboral-content-section {
+		button {
+			margin-bottom: 3rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+	.laboral-content-section p {
+		font-size: 1.5rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.laboral-img-footer {
+		width: 30rem;
+		margin: 1rem;
+		margin-left: 31rem;
+	}
+}
+
+@media screen and (max-width: 1212px) {
+	* {
+		font-size: 10px;
+	}
+	.laboral-img-footer {
+		width: 30rem;
+		margin: 1rem;
+		margin-left: 3rem;
+	}
+}
+
+@media screen and (max-width: 1098px) {
+	* {
+		font-size: 10px;
+	}
+
+	.me {
+		margin-bottom: 2rem;
+	}
+	.aboutMe {
+		margin-bottom: 2rem;
+	}
+	.information {
+		position: static;
+		overflow-x: scroll;
+		border-radius: 0;
+	}
+	.laboral-img-footer {
+		width: 30rem;
+		margin: 1rem;
+		margin-left: 3rem;
+	}
+}
+
+@media screen and (max-width: 925px) {
+	* {
+		font-size: 11px;
+	}
+
+	h1 {
+		font-size: 23px;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 11px;
+		margin: 0;
+	}
+	body {
+		overflow: visible;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+	.information {
+		position: static;
+		overflow-x: scroll;
+		border-radius: 0;
+	}
+
+	.navbar-UL a {
+		font-size: 2rem;
+	}
+
+	.laboral-content-section {
+		button {
+			margin-bottom: 3rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+	.laboral-content-section p {
+		font-size: 1.5rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.laboral-img-footer {
+		width: 30rem;
+		margin: 1rem;
+		margin-left: 31rem;
+	}
+}
+
+@media screen and (max-width: 801px) {
+	* {
+		font-size: 9px;
+	}
+
+	h1 {
+		font-size: 23px;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 11px;
+		margin: 0;
+	}
+	body {
+		overflow: visible;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+	.information {
+		position: static;
+		overflow-x: scroll;
+		border-radius: 0;
+	}
+	.navbar-UL a {
+		font-size: 2rem;
+	}
+
+	.laboral-content-section {
+		button {
+			margin-bottom: 3rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+	.laboral-content-section p {
+		font-size: 1.5rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.laboral-img-footer {
+		width: 30rem;
+		margin: 1rem;
+		margin-left: 5rem;
+	}
+}
+@media screen and (max-width: 426px) {
+	* {
+		font-size: 8px;
+	}
+
+	h1 {
+		font-size: 30px;
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	h3 {
+		font-size: 12px;
+		margin: 0;
+	}
+	span {
+		font-size: 1.5rem;
+	}
+
+	a {
+		font-size: 1.5rem;
+	}
+
+	.navbar-UL a {
+		font-size: 1.4rem;
+	}
+
+	.me {
+		display: block;
+		text-align: center;
+		margin-bottom: 2rem;
+		&-Title {
+			margin-top: 2rem;
+			margin-left: 3rem;
+			margin-bottom: 2rem;
+			text-align: left;
+		}
+		&-img {
+			margin-left: 8rem;
+		}
+	}
+
+	.aboutMe {
+		margin-bottom: 2rem;
+		padding-left: 1rem;
+		div {
+			margin: 0;
+			width: 50rem;
+			height: 4rem;
+			text-align: left;
+		}
+	}
+
+	.habits {
+		ul li {
+			padding-top: 1rem;
+		}
+	}
+
+	.laboral {
+		section {
+			display: block;
+			border-bottom: solid 0.5rem $color-button;
+		}
+		&-img {
+			width: 51rem;
+		}
+		&-content {
+			width: 36rem;
+
+			h1 {
+				font-size: 2.2rem;
+			}
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.habits ul {
+		display: block;
+		margin: 0 auto;
+		padding: 1.2rem;
+		li {
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	.laboral {
+		&-img {
+			width: 45rem;
+			&-footer {
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.me-img {
+		margin-left: 2rem;
+	}
+}
